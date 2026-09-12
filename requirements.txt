@@ -1,0 +1,11 @@
+transformers
+accelerate
+peft
+bitsandbytes
+qwen-vl-utils
+jiwer
+datasets
+arabic-reshaper
+python-bidi
+pillow
+matplotlib
