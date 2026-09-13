@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment variables
+.env
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Large datasets
+data/*
+!data/README.md
+
+# Model checkpoints / weights
+models/
+*.bin
+*.safetensors
+*.pt
+*.pth
+*.ckpt
+
+# Generated results that may become large
+results/
