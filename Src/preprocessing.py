@@ -1,3 +1,4 @@
+
 import re
 
 
@@ -25,8 +26,8 @@ def normalize_arabic(
 
     if normalize_alef:
         text = re.sub(
-            r"[إأآٱ]",
-            "ا",
+            r"[\u0625\u0623\u0622\u0671]",
+            "\u0627",
             text,
         )
 
